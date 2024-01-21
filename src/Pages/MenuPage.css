@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: -1;
+}
+
+.menu-page-container {
+  width: 600px;
+  background-color: #222;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icons-container {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+.icon-button:hover {
+  background-color: #0056b3;
+}
+
+.filter button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.filter button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.saved-tasks-container {
+  margin-top: 20px;
+}
+
+.saved-task-item {
+  background-color: #ffffff; /* Fundal alb pentru elementele salvate */
+  border: 1px solid #ddd; /* Chenar subtil */
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-details {
+  display: flex;
+  flex-direction: column;
+  width: 200%;
+}
+
+/* ... stiluri existente */
+
+.task-description {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+/* ... restul stilurilor CSS */
+
+.task-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.complete-task-button,
+.delete-task-button {
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.complete-task-button {
+  background-color: #28a745; /* Verde */
+  color: white;
+}
+
+.delete-task-button {
+  background-color: #dc3545; /* Roșu */
+  color: white;
+}
+
+/* Alte stiluri, dacă sunt necesare */

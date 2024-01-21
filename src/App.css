@@ -1,0 +1,124 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('loginsopm.png');
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    box-shadow: inherit;
+    z-index: -1;
+  }
+
+  .login-container {
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: transparent;
+  }
+
+  h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  label {
+    color: #fff;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+  }
+
+  input[type="submit"],
+  .register-btn {
+    width: 20%;
+    padding: 8px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px auto;
+    display: block;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .register-btn {
+    background-color: #28a745;
+  }
+
+  input[type="submit"],
+  .register-btn {
+    background-color: #cc9900;
+    color: #000;
+  }
+  .input-field {
+    color: white; /* Sets the text color to white */
+    background-color: #333; /* Optional: sets a darker background for better contrast */
+    border: 1px solid #666; /* Optional: sets a border for the input field */
+    padding: 10px; /* Optional: adds some padding inside the input field */
+  }
+  
+  /* Style the placeholder text color */
+  .input-field::placeholder {
+    color: white;
+    opacity: 1; /* Required for some browsers to ensure the placeholder text is fully visible */
+  }
+  .App-header {
+    background-color: #282c34; /* A dark background for the header */
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    border-color: #61dafb; /* A light blue border on hover */
+  }
+  
+
+  

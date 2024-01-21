@@ -1,0 +1,75 @@
+.login-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 120vh; /* Adjusted to 100vh for full viewport height */
+  background: url('papagal.png') no-repeat center center fixed;
+  background-size: cover; /* This ensures the image covers the entire area */
+  /* Additional properties to ensure the image is not distorted */
+  background-position: center; /* Center the image */
+  overflow: hidden; /* Hide any overflow */
+}
+  
+  .login-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 0px #000000;
+  }
+  
+  .login-title {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-input {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 1px; 
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .login-input::placeholder {
+    color: #ddd;
+  }
+  
+  .login-form .login-button {
+    background-color: #f0ad4e;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 1px; /* Smaller padding */
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem; /* Smaller text */
+  }
+  
+  
+  .login-button {
+    padding: 5px 10px !important; /* Force smaller padding */
+    font-size: 0.8rem !important; /* Force smaller text */
+  }
+  
+  .login-button:hover {
+    background-color: #ec971f; /* Darker orange */
+  }
+  
+  .suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .suggestions-list li:hover {
+    background-color: #transparent;
+  }
+  

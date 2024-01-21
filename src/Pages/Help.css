@@ -1,0 +1,86 @@
+/* Help.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #040404; /* Setează fundalul întregii pagini la alb */
+}
+
+.help-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Folosește o culoare de fundal semi-transparentă */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Asigură-te că este afișată deasupra oricărui alt conținut */
+}
+
+.help-container h2 {
+  color: rgb(0, 255, 0); /* culoare închisă pentru titlu */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.faq-section {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+
+.faq-item h3 {
+  color: #1fec11; /* culoare pentru întrebări */
+  margin-bottom: 5px;
+}
+
+.faq-item p {
+  color: #555; /* culoare mai închisă pentru text */
+  line-height: 1.5;
+}
+
+/* Stil pentru buton, dacă este inclus */
+.help-container button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #1fec11; /* culoarea butonului */
+  color: white; /* text alb */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.help-container button:hover {
+  background-color: #0056b3; /* culoare mai închisă la hover */
+}
+/* Help.css */
+/* ... other styles ... */
+
+.close-faq {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Style adjustments to prevent overlap with the close button */
+.help-container {
+  position: relative; /* For absolute positioning of the close button */
+  padding-top: 50px; /* Add space at the top to avoid overlap */
+}
+
+/* ... other styles ... */
+

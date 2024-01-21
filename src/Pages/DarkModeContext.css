@@ -1,0 +1,11 @@
+/* index.css sau App.css */
+.dark-mode {
+    background-color: black; /* Fundal negru pentru Dark Mode */
+    color: white; /* Text alb pentru contrast */
+  }
+  
+  .light-mode {
+    background-color: blue; /* Fundal albastru pentru Light Mode */
+    color: white; /* Text negru */
+  }
+  

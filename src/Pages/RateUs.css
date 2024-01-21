@@ -1,0 +1,123 @@
+/* RateUs.css */
+.rate-us-container {
+  background-color: #000000; /* white background */
+  max-width: 600px; /* or the width that fits your design */
+  margin: 2rem auto; /* centers the container with margin top and bottom */
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow for some depth */
+  border-radius: 8px; /* rounded corners */
+  flex-direction: column;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  color: rgb(47, 255, 0);
+  float: right; /* positions the close button to the right */
+  font-size: 1.5rem; /* larger close button */
+  cursor: pointer; /* hand cursor on hover */
+}
+
+.close-button:hover {
+  color: rgb(25, 139, 0);
+}
+
+h2 {
+  text-align: center; /* centers the title */
+  color: #333; /* dark grey color for text */
+  margin-bottom: 1rem; /* Add margin at the bottom to create space */
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem; /* larger stars */
+  color: #ffffff; /* gold color for stars */
+  cursor: pointer;
+}
+
+.star-button.selected {
+  color: #ff4500; /* a different color for selected stars, e.g., orange */
+}
+
+.star-button:hover {
+  color: #ffffff; /* a color for hover state */
+}
+
+button {
+  margin-top: 1rem; /* spacing above the buttons */
+  padding: 0.5rem 1rem; /* padding inside the buttons */
+  background-color: #007bff; /* blue background */
+  color: white; /* white text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* darker blue on hover */
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars > div {
+  display: flex;
+  margin-top: 5px;
+  align-items: center; /* Aliniați stelele pe axa verticală la centru */
+}
+
+.stars > div:first-child {
+  margin-bottom: 5px; /* Adăugați o margine la partea de jos a primei linii */
+}
+
+.stars > div:nth-child(2) {
+  flex-direction: row; /* Mențineți direcția pe orizontală pentru a doua linie */
+  margin-left: 10px; /* Adăugați o margine la stânga pentru a separa puțin cele două linii */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+  text-align: center; /* align text to the center */
+  color: #666; /* lighter grey for text */
+}
+
+/* Add a class for the 'Save Rating' button if it needs a different style */
+.save-rating-button {
+  /* Add styles as needed for the 'Save Rating' button */
+}
+
+/* Style for the navigation link to the help page */
+.help-link {
+  display: block; /* make it a block to occupy its own line */
+  text-align: center; /* center the link */
+  margin-top: 1rem; /* space above the link */
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.help-link:hover {
+  background-color: #0056b3;
+}

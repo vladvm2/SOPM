@@ -1,0 +1,60 @@
+/* Register.css */
+.register-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 120vh; /* Adjusted to 100vh for full viewport height */
+  background: url('porumbel.png') no-repeat center center fixed;
+  background-size: cover; /* This ensures the image covers the entire area */
+  /* Additional properties to ensure the image is not distorted */
+  background-position: center; /* Center the image */
+  overflow: hidden; /* Hide any overflow */
+}
+
+
+.register-container {
+
+  padding: 40px;
+  border-radius: 5px;
+  width: 300px;
+ 
+}
+
+.register-title {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-input {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 1px;
+  padding: 10px;
+  color: #fff;
+}
+
+.register-input::placeholder {
+  color: #ddd;
+}
+
+.register-button {
+  background-color: #f0ad4e; /* Bootstrap's btn-warning color */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9 rem;
+}
+
+.register-button:hover {
+  background-color: #ec971f; /* Darker orange */
+}

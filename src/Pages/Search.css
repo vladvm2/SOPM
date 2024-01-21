@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Set the background color to black */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9); /* Increased opacity for a darker overlay */
+    border-radius: 5px;
+    box-shadow: inherit;
+    z-index: -1;
+}
+.search-page-container {
+    width: 300px;
+    background-color: #111; /* Very dark gray, almost black */
+    min-height: 100vh;
+    padding: 900px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.task-title, .task-description {
+    color: white; /* Setează culoarea textului pe alb */
+    /* Adăugați aici orice alte stiluri necesare */
+  }
+  .search-input-container input {
+    color: white; /* Setează culoarea textului pe alb */
+    /* Adăugați aici orice alte stiluri necesare, cum ar fi culoarea de fundal sau marginile */
+  }
+  .search-input {
+    color: white;
+    /* Alte stiluri pentru caseta de căutare */
+  }
+  
+  
+  
+  .suggestion-item {
+    /* Stilurile pentru butoanele de sugestie */
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    /* Adăugați alte stiluri după necesități */
+  }

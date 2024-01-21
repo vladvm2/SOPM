@@ -1,0 +1,102 @@
+/* User.css */
+.user-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: black url('./papagal.png') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.header {
+  font-size: 24px;
+  color: rgb(12, 157, 12);
+  margin-bottom: 10px;
+}
+
+.profile-image-container {
+  margin: 10px;
+}
+
+.dob-input {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.dob-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bio-input {
+  width: 80%;
+  height: 150px;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  resize: vertical;
+  color: white;
+  background-color: transparent; /* Se potrivește cu tema întunecată */
+  border: 1px solid black; /* Bordură subtilă pentru input */
+}
+
+button {
+  background-color: #333333; /* Butonul întunecat pentru tema întunecată */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555555; /* O nuanță puțin mai deschisă pentru hover */
+}
+
+.hobby-item {
+  color: white;
+  margin: 5px 0;
+}
+
+.hobby-input {
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  color: black;
+  background-color: #fff; /* Fundal clar pentru contrast în tema întunecată */
+  border: 1px solid #333; /* Bordură subtilă pentru input */
+}
+
+.hobby-title {
+  color: rgb(12, 157, 12);
+}
+
+.bio-input::placeholder {
+  color: white;
+}
+.hobby-input::placeholder {
+  color: white;
+}
+.dob-inputs::placeholder {
+ color: white;
+}
+.dob-input::placeholder {
+  color: white;
+ }
+ .date-input::placeholder {
+  color: white;
+ }
+ .sugestii {
+  color: rgb(12, 157, 12);
+ }
